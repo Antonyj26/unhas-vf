@@ -1,0 +1,63 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2rem;
+  background: rgba(206, 204, 204, 0.671);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: #f54e5f;
+  width: 500px;
+  border: 1px solid black;
+
+  h1 {
+    font-family: 'Lilita One', sans-serif;
+    color: #f54e5f;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 18px;
+  }
+
+  input {
+    padding-inline: 10px;
+    background-color: #fababf;
+    color: rgb(73, 73, 73);
+    border-radius: 10px;
+    border: 2px solid #f54e5f;
+    height: 50px;
+    font-family: 'Lilita One', sans-serif;
+  }
+
+  textarea {
+    padding-inline: 10px;
+    background-color: #fababf;
+    color: rgb(73, 73, 73);
+    border-radius: 10px;
+    border: 2px solid #f54e5f;
+    height: 360px;
+    font-family: 'Lilita One', sans-serif;
+  }
+
+  button {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(73, 73, 73);
+
+    border-radius: 10px;
+
+    border: 2px solid #f54e5f;
+  }
+
+  button:hover {
+    background-color: green;
+  }
+}

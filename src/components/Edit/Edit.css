@@ -15,13 +15,18 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 2rem;
-  background-color: rgba(206, 204, 204, 0.829);
+  background: rgba(206, 204, 204, 0.671);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
-  color: black;
+  color: #f54e5f;
   width: 500px;
-  border: 2px solid black;
+  border: 1px solid black;
 
   h1 {
+    font-family: 'Lilita One', sans-serif;
+    color: #f54e5f;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
@@ -31,46 +36,62 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 18px;
 
     input {
       padding-inline: 10px;
-      background-color: #fca9b1;
-      color: black;
+      background-color: #fababf;
+      color: rgb(73, 73, 73);
       border-radius: 10px;
-      border: 2px solid;
+      border: 2px solid #f54e5f;
       height: 50px;
-    }
-
-    input:hover {
-      background-color: #f76c79;
+      font-family: 'Lilita One', sans-serif;
     }
 
     select {
       padding-inline: 10px;
-      background-color: #fca9b1;
-      color: black;
+      background-color: #fababf;
+      color: rgb(73, 73, 73);
       height: 55px;
       border-radius: 10px;
-      border-color: black;
-      border: 2px solid;
+      border: 2px solid #f54e5f;
+      margin-bottom: 30px;
+      font-family: 'Lilita One', sans-serif;
     }
 
-    select:hover {
-      background-color: #f76c79;
+    option {
+      color: rgb(73, 73, 73);
     }
 
-    button {
-      background-color: #fca9b1;
-      color: black;
-      border-color: black;
-      border-radius: 10px;
-      border-color: black;
-      border: 2px solid;
-      width: 50%;
-    }
+    .button-container {
+      display: flex;
+      gap: 10px;
 
-    button:hover {
-      background-color: #f76c79;
+      button {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(73, 73, 73);
+
+        border-radius: 10px;
+
+        border: 2px solid #f54e5f;
+        width: 50%;
+      }
+
+      .button-save:hover {
+        background-color: green;
+        color: black;
+      }
+
+      .button-delete:hover {
+        background-color: red;
+        color: black;
+      }
+
+      .button-cancel:hover {
+        background-color: gray;
+        color: black;
+      }
     }
   }
 }
