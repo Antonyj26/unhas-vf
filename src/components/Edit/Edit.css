@@ -1,0 +1,76 @@
+html,
+body {
+  background-image: url('/src/assets/background-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2rem;
+  background-color: rgba(206, 204, 204, 0.829);
+  border-radius: 10px;
+  color: black;
+  width: 500px;
+  border: 2px solid black;
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+      padding-inline: 10px;
+      background-color: #fca9b1;
+      color: black;
+      border-radius: 10px;
+      border: 2px solid;
+      height: 50px;
+    }
+
+    input:hover {
+      background-color: #f76c79;
+    }
+
+    select {
+      padding-inline: 10px;
+      background-color: #fca9b1;
+      color: black;
+      height: 55px;
+      border-radius: 10px;
+      border-color: black;
+      border: 2px solid;
+    }
+
+    select:hover {
+      background-color: #f76c79;
+    }
+
+    button {
+      background-color: #fca9b1;
+      color: black;
+      border-color: black;
+      border-radius: 10px;
+      border-color: black;
+      border: 2px solid;
+      width: 50%;
+    }
+
+    button:hover {
+      background-color: #f76c79;
+    }
+  }
+}

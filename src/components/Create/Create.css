@@ -5,5 +5,8 @@
   form {
     display: flex;
     flex-direction: column;
+    input {
+      background-color: white;
+    }
   }
 }
